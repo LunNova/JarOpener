@@ -28,11 +28,6 @@ Coding and Pull Request Formatting
 
 Please follow the above conventions if you want your pull requests accepted.
 
-Donations
----
-
-Paypal: [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PTWH8MH8Y4WH8)
-
 Contributors
 ---
 
