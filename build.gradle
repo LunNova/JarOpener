@@ -1,6 +1,5 @@
 plugins {
 	id 'java'
-	id 'maven'
 }
 project.version = '1.0-SNAPSHOT'
 project.group = 'me.nallar'
@@ -27,8 +26,7 @@ tasks.withType(JavaCompile) {
 
 repositories {
 	jcenter()
-	// TODO: Fix repo.nallar.me
-	// maven { url='https://repo.nallar.me/' }
+	maven { url='http://repo.nallar.me/' }
 }
 
 configurations {
@@ -37,7 +35,10 @@ configurations {
 }
 
 dependencies {
-	//compile 'me.nallar:javatransformer:1.0-SNAPSHOT'
+	compile 'org.ow2.asm:asm:5.0.4'
+	compile 'org.ow2.asm:asm-tree:5.0.4'
+	compile 'com.github.javaparser:javaparser-core:2.3.0'
+	compile 'me.nallar:JavaTransformer:1.0-SNAPSHOT'
 }
 
 compileJava {
