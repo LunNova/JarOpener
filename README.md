@@ -2,6 +2,8 @@ JarOpener [![Build Status](http://nallar.me/buildservice/job/JarOpener/badge/ico
 ====
 Tool which opens up jar files for easy monkey-patching. (Everything non-final/public)
 
+Idea and name by Jesse Wilson
+
 Copyright &copy; 2016, nallar <ross@nallar.me>
 JarOpener is licensed under the MIT license.
 
