@@ -18,7 +18,6 @@ JarOpener is built using Gradle.
 * Install the Java 8 Development Kit
 * Run `./gradlew build`
 
-
 Coding and Pull Request Formatting
 ---
 * Generally follows the Oracle coding standards.
@@ -27,16 +26,5 @@ Coding and Pull Request Formatting
 * Pull requests must be formatted properly.
 
 Please follow the above conventions if you want your pull requests accepted.
-
-Contributors
----
-
-* [nallar](https://github.com/nallar/ "Ross Allan")
-* Everyone who's helped with testing and reporting bugs :)
-
-Acknowledgements
----
-
-YourKit is kindly supporting open source projects with its full-featured Java Profiler. YourKit, LLC is the creator of innovative and intelligent tools for profiling Java and .NET applications. Take a look at YourKit's leading software products: [YourKit Java Profiler](http://www.yourkit.com/java/profiler/index.jsp) and [YourKit .NET Profiler](http://www.yourkit.com/.net/profiler/index.jsp).
 
 [Jenkins]: http://nallar.me/buildservice
