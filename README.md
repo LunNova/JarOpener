@@ -1,6 +1,8 @@
 JarOpener [![Build Status](http://nallar.me/buildservice/job/JarOpener/badge/icon)](http://nallar.me/buildservice/job/JarOpener/)
 ====
-Tool which opens up jar files for easy monkey-patching. (Everything non-final/public)
+Tool which opens up jar files for easy monkey-patching.
+
+JarOpener supports .class files from any JVM language, and .java source files.
 
 Idea and name by Jesse Wilson
 

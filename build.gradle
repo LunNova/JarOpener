@@ -1,6 +1,18 @@
+buildscript {
+	ext.kotlin_version = '1.0.0-beta-4584'
+	repositories {
+		jcenter()
+		mavenCentral()
+	}
+	dependencies {
+		classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+	}
+}
 plugins {
 	id 'java'
 }
+apply plugin: "kotlin"
+apply plugin: 'kotlin'
 project.version = '1.0-SNAPSHOT'
 project.group = 'me.nallar'
 
@@ -27,6 +39,7 @@ tasks.withType(JavaCompile) {
 repositories {
 	jcenter()
 	maven { url='http://repo.nallar.me/' }
+	mavenCentral()
 }
 
 configurations {
@@ -35,6 +48,7 @@ configurations {
 }
 
 dependencies {
+	compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 	compile 'org.ow2.asm:asm:5.0.4'
 	compile 'org.ow2.asm:asm-tree:5.0.4'
 	compile 'com.github.javaparser:javaparser-core:2.3.0'
@@ -57,6 +71,7 @@ jar {
 }
 
 jar.manifest.mainAttributes(
+	"Main-Class": "me.nallar.JarOpener",
 	"Built-By": System.properties['user.name'],
 	"Created-By": System.properties['java.vm.version'] + " (" + System.properties['java.vm.vendor'] + ")",
 	"Implementation-Title": name,
