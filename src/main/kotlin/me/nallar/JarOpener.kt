@@ -5,6 +5,7 @@ import me.nallar.javatransformer.api.JavaTransformer
 import java.io.File
 
 public object JarOpener {
+	@JvmStatic
 	public fun main(args: Array<String>) {
 		if (args.size != 2) {
 			System.err.println("Usage: java -jar jaropener.jar input.jar output.jar")
