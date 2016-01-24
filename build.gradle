@@ -40,7 +40,6 @@ tasks.withType(JavaCompile) {
 repositories {
 	jcenter()
 	maven { url='http://repo.nallar.me/' }
-	mavenCentral()
 }
 
 configurations {
@@ -53,7 +52,7 @@ dependencies {
 	compile 'org.ow2.asm:asm:5.0.4'
 	compile 'org.ow2.asm:asm-tree:5.0.4'
 	compile 'com.github.javaparser:javaparser-core:2.3.0'
-	compile 'me.nallar:JavaTransformer:1.0-SNAPSHOT'
+	compile 'me.nallar:JavaTransformer:1.0'
 }
 
 jar {
