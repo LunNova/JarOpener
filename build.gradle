@@ -13,7 +13,7 @@ plugins {
 }
 apply plugin: "kotlin"
 
-project.version = '1.0'
+project.version = '1.1-SNAPSHOT'
 project.group = 'me.nallar'
 mainClassName = "me.nallar.JarOpener"
 
@@ -52,7 +52,7 @@ dependencies {
 	compile 'org.ow2.asm:asm:5.0.4'
 	compile 'org.ow2.asm:asm-tree:5.0.4'
 	compile 'com.github.javaparser:javaparser-core:2.3.0'
-	compile 'me.nallar:JavaTransformer:1.0'
+	compile 'me.nallar:JavaTransformer:1.1-SNAPSHOT'
 }
 
 jar {
